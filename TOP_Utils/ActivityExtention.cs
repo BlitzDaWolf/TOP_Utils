@@ -1,7 +1,9 @@
 ﻿using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 namespace TOP_Utils
 {
+    [ExcludeFromCodeCoverage]
     public static class ActivityExtention
     {
         private static string BaseName = string.Empty;
